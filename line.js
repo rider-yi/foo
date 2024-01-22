@@ -2,7 +2,7 @@ function addLineOverlay() {
   const elm = document.createElement("div");
   elm.setAttribute(
     "style",
-    "position: fixed; z-index: 999999; padding: 0; margin: 0; right: 10px; bottom: 10px; height: 70px; width: 70px; background-color: rgba(0, 0, 0, 0); background-image: url(./line-icon.webp); background-size: cover; cursor: pointer;"
+    "position: fixed; z-index: 999999; padding: 0; margin: 0; right: 10px; bottom: 10px; height: 70px; width: 70px; background-color: rgba(0, 0, 0, 0); background-image: url(https://raw.githubusercontent.com/rider-yi/foo/main/line-icon.webp); background-size: cover; cursor: pointer;"
   );
   elm.onclick = () => window.open("https://www.fancs.com", "_blank");
 
